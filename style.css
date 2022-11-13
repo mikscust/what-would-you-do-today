@@ -1,0 +1,38 @@
+/* reset css from top */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* reset css to bottom */
+
+body {
+    min-height: 100vh;
+
+    background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%); background-blend-mode: normal, normal, screen, overlay, normal;
+
+    background-repeat: no-repeat;
+
+    font-family: 'Homemade Apple', cursive;
+}
+
+.container {
+    width: 35rem;
+    height: 15rem;
+    margin: 50% auto;
+    position: relative;
+}
+
+.container #result-text {
+    font-size: 2rem;
+    margin: auto;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    text-align: justify;
+}

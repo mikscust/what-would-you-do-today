@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Would You Do Today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="result-text"></h1>
+    </div>
+
+    <!-- javascript section -->
+
+    <script>
+
+        let response = prompt("what would you do today, evolve or repeat? 🤔");
+        let outputText = "";
+
+        if (response == "evolve") {
+            outputText = "im proud of you.";
+        } else if (response == "repeat") {
+            outputText = "make sure this helps you become the better version of your future self, darling.";
+        } else {
+            outputText = "please type evolve or repeat in small caps, thank you.";
+        }
+
+        document.getElementById("result-text").innerHTML = outputText;
+            
+    </script>
+
+</body>
+</html>
